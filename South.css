@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+h1,
+.lead {
+    text-align: center;
+}
+
+.south-body {
+    background-image: url(fb-routes-lavande.1486296.jpg);
+    background-size: cover;
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: none;
+    border: none;
+}
+
+.card-body {
+    color: white;
+    font-weight: 900;
+}
+
+.card-body:hover {
+    color: rgb(38, 241, 208);
+}
+
+#back-button {
+    background: purple;
+    border: none;
+}
+
+h1 {
+    color: rgb(209, 152, 7);
+}
+
+.jumbotron {
+    background: #c4e4fc;
+}
+
+@media screen and (max-width: 800px) {
+    .south-body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

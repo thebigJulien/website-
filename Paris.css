@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+
+* {
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.card-body {
+    width: 100%;
+}
+
+.paris-text {
+    background: black;
+    color: #cfb53b;
+    padding: 20px 50px;
+}
+
+button:hover {
+    background: #cfb53b;
+}
+
