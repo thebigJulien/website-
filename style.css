@@ -10,6 +10,7 @@
     background-image: url(France-bodyimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
 }
 
@@ -47,4 +48,19 @@ p {
 .dropdown-item {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: 30px;
+    }
+    .dropdown {
+        height: 480px;
+    }
+    .intro-image {
+        height: 480px;
+    }
+    main {
+        height: 150px;
+    }
 }
